@@ -1,0 +1,29 @@
+{
+  "travelTypes": [
+    {
+      "id": 1,
+      "description": "vida noturna",
+      "icon": "/assets/images/cocktail.svg"
+    },
+    {
+      "id": 2,
+      "description": "praia",
+      "icon": "/assets/images/surf.svg"
+    },
+    {
+      "id": 3,
+      "description": "moderno",
+      "icon": "/assets/images/building.svg"
+    },
+    {
+      "id": 4,
+      "description": "clássico",
+      "icon": "/assets/images/museum.svg"
+    },
+    {
+      "id": 5,
+      "description": "e mais...",
+      "icon": "/assets/images/group.svg"
+    }
+  ]  
+}
