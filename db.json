@@ -25,5 +25,37 @@
       "description": "e mais...",
       "icon": "/assets/images/group.svg"
     }
-  ]  
+  ],
+  "continentsSummary": [
+    {
+      "id": 1,
+      "name": "América",
+      "image": "https://images.unsplash.com/photo-1500926165259-30ef3079d477?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "description": "O novo continente dos sonhos"
+    },
+    {
+      "id": 2,
+      "name": "Ásia",
+      "image": "https://images.unsplash.com/photo-1470004914212-05527e49370b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=926&q=80",
+      "description": "O mais extenso e populoso"
+    },
+    {
+      "id": 3,
+      "name": "África",
+      "image": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80",
+      "description": "Um continente cheio de cultura"
+    },
+    {
+      "id": 4,
+      "name": "Europa",
+      "image": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "description": "O continente mais antigo"
+    },
+    {
+      "id": 5,
+      "name": "Oceânia",
+      "image": "https://images.unsplash.com/photo-1528272047019-beac059cd9e4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      "description": "O último continente"
+    }
+  ]
 }

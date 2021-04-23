@@ -21,12 +21,19 @@ export function IconTravelType() {
     setTravelOptions(data);
   }
 
-
   return (
-    <>
+    <Flex
+      w="100%"
+      maxWidth={1160}
+      h="100px"
+      mx="auto"
+      align="center"
+    >
       {travelOptions &&
         travelOptions.map(travelItem => (
           <Flex
+            w="100%"
+            mx="auto"
             align="center"
             direction="column"
             key={travelItem.id}
@@ -44,6 +51,6 @@ export function IconTravelType() {
           </Flex>
         ))
       }
-    </>
+    </Flex>
   )
 }

@@ -48,7 +48,6 @@ export function Banner() {
           transform={{
             rotate: '3deg'
           }}
-
         />
       )}
 
