@@ -4,7 +4,7 @@ import { RiArrowLeftSLine } from "react-icons/ri";
 
 export function Header() {
   const showGoHomeButton = false;
-  
+
   return (
     <Flex
       w="100%"
@@ -23,10 +23,11 @@ export function Header() {
             fontSize="32"
             variant="unstyled"
             mr={4}
-          ></IconButton>
+          >
+          </IconButton>
         </Link>
       )}
-      <Flex align="center" mx="auto">
+      <Flex align="center" mx="auto" my="4">
         <Link href="/" passHref>
           <Image src="/assets/images/logo.svg" />
         </Link>
