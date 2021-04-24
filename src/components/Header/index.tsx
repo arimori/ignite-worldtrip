@@ -2,9 +2,11 @@ import { Flex, IconButton, Image, Icon } from "@chakra-ui/react";
 import Link from 'next/link';
 import { RiArrowLeftSLine } from "react-icons/ri";
 
-export function Header() {
-  const showGoHomeButton = false;
+interface HeaderProps {
+  showGoHomeButton?: boolean;
+}
 
+export function Header({ showGoHomeButton = false }: HeaderProps) {
   return (
     <Flex
       w="100%"

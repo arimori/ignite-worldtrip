@@ -8,10 +8,11 @@ export function Description() {
       align="center"
     >
       <Divider
-        colorScheme="gray.700"
+        color="gray"
         width="90px"
         border="2px solid #47585B"
         mb="12"
+        className="custom-divider"
       />
 
       <Text
