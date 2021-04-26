@@ -5,12 +5,26 @@ import { Flex } from "@chakra-ui/react";
 import { api } from "../../services/api";
 import { Header } from "../../components/Header";
 
+interface Cities {
+  id: number;
+  image: string;
+  city: string;
+  country: string;
+  flag: string;
+}
+
+
 interface ContinentProps {
   continent: {
     id: number;
     name: string;
     image: string;
     description: string;
+    paragraph: string;
+    allCountries: number;
+    allIdioms: number;
+    top100CitiesCount: number;
+    highlightCities: Cities[]
   }
 }
 
@@ -33,7 +47,7 @@ export const getServerSideProps: GetServerSideProps = async ({ req, params }) =>
 
   const { data } = await api.get(`/continentsSummary/${id}`);
 
-  const continent = data;
+  const continent = data;  
 
   return {
     props: {
