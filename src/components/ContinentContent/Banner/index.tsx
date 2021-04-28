@@ -23,8 +23,9 @@ export function ContinentBanner({ banner, name }: ContinentBannerProps) {
     >
       <Box pb="14" pl="36">
         <Heading
-          fontSize={["2xl", "5xl"]}
-          fontWeight="700"
+          fontSize={["3xl", "5xl"]}
+          lineHeight="72px"
+          fontWeight="semibold"
           color="white"
         >
           {name}

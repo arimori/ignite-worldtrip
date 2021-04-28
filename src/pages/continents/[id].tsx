@@ -5,6 +5,7 @@ import { Flex } from "@chakra-ui/react";
 import { api } from "../../services/api";
 import { Header } from "../../components/Header";
 import { ContinentBanner } from "../../components/ContinentContent/Banner";
+import { ContinentContent } from "../../components/ContinentContent";
 
 interface Cities {
   id: number;
@@ -14,7 +15,7 @@ interface Cities {
   flag: string;
 }
 
-interface ContinentProps {
+export interface ContinentProps {
   continent: {
     id: number;
     name: string;
@@ -39,7 +40,7 @@ export default function Continent({ continent }: ContinentProps) {
       <Flex direction="column" h="100vh" pb="4">
         <Header showGoHomeButton />
 
-        <ContinentBanner banner={continent.banner} name={continent.name} />
+        <ContinentContent continent={continent} />
       </Flex>
     </>
   );
