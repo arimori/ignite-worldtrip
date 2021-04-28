@@ -35,11 +35,12 @@ export function ContinentsSwiper() {
     <Flex
       w="100%"
       maxW={1240}
-      h="450"
-      align="center"
       mx="auto"
+      my="12"
+      align="center"
       justify="center"
-      mt="13"
+      px="8"
+      mb="8"
     >
       <Swiper
         style={{ height: '100%', width: '100%', marginTop: 52 }}
