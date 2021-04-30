@@ -8,20 +8,26 @@ import { ContinentsSwiper } from '../components/ContinentsSwiper';
 
 export default function Home() {
   return (
-    <Flex direction="column" h="100vh" pb="4">
-      <Header />
-      <Banner />
+    <>
+      <Head>
+        <title> Home | WorldTrip</title>
+      </Head>
 
-      <Flex
-        w="100%"
-        p={["8", "24"]}
-        direction="column"
-      >
-        <TravelTypes />
+      <Flex direction="column" h="100vh" pb="4">
+        <Header />
+        <Banner />
+
+        <Flex
+          w="100%"
+          p={["8", "24"]}
+          direction="column"
+        >
+          <TravelTypes />
+        </Flex>
+
+        <Description />
+        <ContinentsSwiper />
       </Flex>
-
-      <Description />
-      <ContinentsSwiper />
-    </Flex>
+    </>
   )
 }

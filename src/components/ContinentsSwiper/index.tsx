@@ -5,7 +5,7 @@ import SwiperCore, { Navigation, Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { SwiperSlideCustom } from './swiperSlideCustom';
+import { SwiperSlideCustom } from './SwiperSlideCustom';
 
 import { api } from '../../services/api';
 
@@ -35,10 +35,12 @@ export function ContinentsSwiper() {
     <Flex
       w="100%"
       maxW={1240}
-      h="450"
-      align="center"
       mx="auto"
+      my="12"
+      align="center"
       justify="center"
+      px="8"
+      mb="8"
     >
       <Swiper
         style={{ height: '100%', width: '100%', marginTop: 52 }}
@@ -56,6 +58,7 @@ export function ContinentsSwiper() {
           continents.map(continent => (
             <SwiperSlide key={`slide-${continent.id}`} tag="li" style={{ listStyle: 'none' }}>
               <SwiperSlideCustom
+                continent_id={continent.id}
                 continent={continent.name}
                 background={`url(${continent.image})`}
               >

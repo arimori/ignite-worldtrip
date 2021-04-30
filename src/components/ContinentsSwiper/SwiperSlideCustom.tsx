@@ -6,16 +6,17 @@ import { SwiperSlide } from 'swiper/react';
 
 
 interface SwiperSlideCustomProps extends SwiperSlide {
+  continent_id: number;
   continent: string;
   background: string;
   children: ReactNode;
 }
 
-export function SwiperSlideCustom({ continent, background, children, ...rest }: SwiperSlideCustomProps) {
+export function SwiperSlideCustom({ continent_id, continent, background, children, ...rest }: SwiperSlideCustomProps) {
   return (
-    <Link href={`/continent/${continent}`}>
+    <Link href={`/continents/${continent_id}`}>
       <Flex
-        bgImage={`url(${background})`}
+        bgImage={`${background}`}
         bgRepeat="no-repeat"
         bgPosition="center"
         cursor="pointer"

@@ -6,7 +6,7 @@
 }
 
 .swiper-pagination {
-  bottom: 0 !important;
+  bottom: 41px !important;
   padding-bottom: 1rem !important;
 
   .swiper-pagination-bullet {
@@ -25,4 +25,10 @@
   .background-continent {
     filter: brightness(90%);
   }
+}
+
+.custom-divider {
+  color: #47585b !important;
+  opacity: 100% !important;
+  border-color: #47585b !important;
 }

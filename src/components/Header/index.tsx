@@ -2,14 +2,17 @@ import { Flex, IconButton, Image, Icon } from "@chakra-ui/react";
 import Link from 'next/link';
 import { RiArrowLeftSLine } from "react-icons/ri";
 
-export function Header() {
-  const showGoHomeButton = false;
+interface HeaderProps {
+  showGoHomeButton?: boolean;
+}
 
+export function Header({ showGoHomeButton = false }: HeaderProps) {
   return (
     <Flex
-      w="100%"
       as="header"
-      maxWidth={1440}
+      w="100%"
+      maxW={1440}
+      maxH={500}
       h="100px"
       mx="auto"
       px="6"
