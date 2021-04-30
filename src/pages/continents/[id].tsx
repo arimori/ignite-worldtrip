@@ -7,7 +7,7 @@ import { Header } from "../../components/Header";
 import { ContinentBanner } from "../../components/ContinentContent/Banner";
 import { ContinentContent } from "../../components/ContinentContent";
 
-interface Cities {
+export interface Cities {
   id: number;
   image: string;
   city: string;
@@ -26,7 +26,7 @@ export interface ContinentProps {
     allCountries: number;
     allIdioms: number;
     top100CitiesCount: number;
-    highlightCities: Cities[]
+    highlightCities: Cities[];
   }
 }
 
@@ -34,10 +34,10 @@ export default function Continent({ continent }: ContinentProps) {
   return (
     <>
       <Head>
-        <title> Continente | WorldTrip</title>
+        <title> {continent.name} | WorldTrip</title>
       </Head>
 
-      <Flex direction="column" h="100vh" pb="4">
+      <Flex direction="column" pb="4">
         <Header showGoHomeButton />
 
         <ContinentContent continent={continent} />

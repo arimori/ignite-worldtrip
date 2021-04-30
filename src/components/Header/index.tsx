@@ -9,9 +9,10 @@ interface HeaderProps {
 export function Header({ showGoHomeButton = false }: HeaderProps) {
   return (
     <Flex
-      w="100%"
       as="header"
-      maxWidth={1440}
+      w="100%"
+      maxW={1440}
+      maxH={500}
       h="100px"
       mx="auto"
       px="6"

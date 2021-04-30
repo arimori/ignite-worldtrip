@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, HStack, Text } from "@chakra-ui/react";
+import { HStack } from "@chakra-ui/react";
 import { Info } from "./Info";
 
 interface SummaryContinentProps {
@@ -12,7 +12,7 @@ interface SummaryContinentProps {
 export function SummaryContinet({ continent }: SummaryContinentProps) {
   return (
     <HStack
-      spacing="8"
+      spacing="6"
       pl="8"
     >
       <Info value={continent.allCountries} description="países" />

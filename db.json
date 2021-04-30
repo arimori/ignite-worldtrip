@@ -31,7 +31,7 @@
       "id": 1,
       "name": "América",
       "image": "https://images.unsplash.com/photo-1500926165259-30ef3079d477?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      "banner": "https://images.unsplash.com/photo-1580752300928-6e1d4ed200c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      "banner": "https://images.unsplash.com/photo-1500926165259-30ef3079d477?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       "description": "O novo continente dos sonhos",
       "paragraph": "América é o maior continente em extensão norte–sul localizado no Hemisfério Ocidental e compreende uma área total de 42.189.120 km2. O continente é habitado por cerca de 902.892.047 pessoas, e nele são faladas diversas línguas, como espanhol, inglês, português, francês, neerlandês e línguas nativas.",
       "allCountries": 50,
@@ -47,7 +47,7 @@
         },
         {
           "id": 2,
-          "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnJhemlsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",          
+          "image": "https://images.unsplash.com/photo-1511268559489-34b624fbfcf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
           "city": "Nova York",
           "country": "USA",
           "flag": "https://i.pinimg.com/736x/03/af/62/03af623d4246ea4bffb7c9997928285a.jpg"

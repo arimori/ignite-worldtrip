@@ -1,9 +1,10 @@
 import { ContinentBanner } from "./Banner";
 
 import { ContinentProps } from '../../pages/continents/[id]';
-import { HStack, Flex } from "@chakra-ui/react";
+import { HStack, Flex, Box } from "@chakra-ui/react";
 import { CardContinent } from "./Card";
 import { SummaryContinet } from "./Summary";
+import { TopCities } from "./TopCities";
 
 export function ContinentContent({ continent }: ContinentProps) {
   return (
@@ -18,7 +19,7 @@ export function ContinentContent({ continent }: ContinentProps) {
       >
         <HStack
           my={["2", "20"]}
-          mx={["2", "16"]}
+          mx={["2", "8", "16"]}
           spacing={12}
         >
           <CardContinent paragraph={continent.paragraph} />
@@ -26,6 +27,13 @@ export function ContinentContent({ continent }: ContinentProps) {
         </HStack>
       </Flex>
 
+      <Flex 
+        maxWidth={1160}        
+        w="100%"
+        mx="auto"
+      >
+        <TopCities highlightCities={continent.highlightCities} />
+      </Flex>
     </>
   )
 }

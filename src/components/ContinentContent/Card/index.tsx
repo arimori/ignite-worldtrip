@@ -10,8 +10,9 @@ export function CardContinent({ paragraph }: CardContinentProps) {
       maxW="600"
     >
       <Text
-        fontSize={["sm", "xl", "2xl"]}
+        fontSize={["sm", "lg", "2xl"]}
         fontWeight="normal"
+        lineHeight={["7", "9"]}
         textAlign="justify"
       >
         {paragraph}

@@ -10,6 +10,7 @@ export const theme = extendTheme({
       "900": "#000000",
       "700": "#47585B",      
       "500": "#f2f2f2",
+      "400": "#999999",
 
       "100": "#DADADA",
       "50": "#F5F8FA", //heading and Text
