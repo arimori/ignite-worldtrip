@@ -1,4 +1,4 @@
-import { Flex, Heading, Text } from '@chakra-ui/react'
+import { Flex, Heading, Text, useBreakpointValue } from '@chakra-ui/react'
 import { useEffect, useState } from 'react';
 
 import SwiperCore, { Navigation, Pagination } from 'swiper';
@@ -20,6 +20,10 @@ interface ContinentsSummary {
 
 export function ContinentsSwiper() {
   const [continents, setContinents] = useState<ContinentsSummary[]>([]);
+  const isWideVersion = useBreakpointValue({
+    base: true,
+    sm: false,
+  });
 
   useEffect(() => {
     getContinentsSummary();
@@ -36,11 +40,11 @@ export function ContinentsSwiper() {
       w="100%"
       maxW={1240}
       mx="auto"
-      my="12"
+      my={["4", "8", "12"]}
       align="center"
       justify="center"
-      px="8"
-      mb="8"
+      px={["2", "4", "8"]}
+      mb={["2", "4", "8"]}
     >
       <Swiper
         style={{ height: '100%', width: '100%', marginTop: 52 }}

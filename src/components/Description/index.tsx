@@ -11,20 +11,20 @@ export function Description() {
         color="gray"
         width="90px"
         border="2px solid #47585B"
-        mb="12"
+        mb={["6", "12"]}
         className="custom-divider"
       />
 
       <Text
         fontWeight="500"
-        fontSize={["2xl", "3xl"]}
+        fontSize={["xl", "2xl", "3xl"]}
       >
         Vamos nessa?
       </Text>
 
       <Text
         fontWeight="500"
-        fontSize={["2xl", "3xl"]}
+        fontSize={["xl", "2xl", "3xl"]}
       >
         Então escolha seu continente
       </Text>

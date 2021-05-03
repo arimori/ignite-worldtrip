@@ -1,4 +1,4 @@
-import { Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, HStack, Image, SimpleGrid, Text, useBreakpointValue } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { api } from '../../services/api';
 
@@ -10,6 +10,10 @@ interface TravelTypes {
 
 export function IconTravelType() {
   const [travelOptions, setTravelOptions] = useState<TravelTypes[]>([]);
+  const isWideVersion = useBreakpointValue({
+    base: true,
+    sm: false,
+  });
 
   useEffect(() => {
     getTravelTypes();
@@ -22,35 +26,68 @@ export function IconTravelType() {
   }
 
   return (
-    <Flex
-      w="100%"
-      maxWidth={1160}
-      h="100px"
-      mx="auto"
-      align="center"
-    >
+    <>
       {travelOptions &&
         travelOptions.map(travelItem => (
-          <Flex
-            w="100%"
-            mx="auto"
-            align="center"
-            direction="column"
+          <Box
             key={travelItem.id}
           >
-            <Image
-              src={travelItem.icon}
-              mb={6}
-            />
-            <Text
-              fontSize={["xl", "2xl"]}
-              fontWeight="600"
-            >
-              {travelItem.description}
-            </Text>
-          </Flex>
+            {isWideVersion ? (
+              <SimpleGrid
+                as="ul"
+                minChildWidth="100px"
+              >
+                <HStack
+                  as="li"
+                  spacing={2}
+                  mx="auto"
+                >
+                  <Box
+                    h="8px"
+                    w="8px"
+                    borderRadius="50%"
+                    bgColor="yellow.100"
+                  />
+                  <Text
+                    fontSize={["lg", "xl", "2xl"]}
+                    fontWeight="600"
+                  >
+                    {travelItem.description}
+                  </Text>
+                </HStack>
+              </SimpleGrid>
+            ) : (
+              <Flex
+                w="100%"
+                maxWidth={1160}
+                h={["120px", "120px", "100px"]}
+                mx="auto"
+                align="center"
+              >
+                <Flex
+                  w="100%"
+                  mx="auto"
+                  align="center"
+                  direction="column"
+                  key={travelItem.id}
+                >
+                  <Image
+                    src={travelItem.icon}
+                    mb={6}
+                  />
+                  <Text
+                    fontSize={["md", "lg", "2xl"]}
+                    fontWeight="600"
+                  >
+                    {travelItem.description}
+                  </Text>
+
+                </Flex>
+              </Flex>
+            )}
+          </Box>
         ))
       }
-    </Flex>
+    </>
   )
 }

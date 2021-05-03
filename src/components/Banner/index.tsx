@@ -9,7 +9,6 @@ export function Banner() {
   return (
     <Flex
       maxWidth={1440}
-      h="335px"
       w="100%"
       mx="auto"
       bgImage="url(/assets/images/banner-wide.png)"
@@ -18,21 +17,24 @@ export function Banner() {
       position="relative"
       justify="space-between"
     >
-      <Box>
+      <Box
+        h={["164px", "180px", "335px"]}
+      >
         <Heading
           fontWeight="medium"
-          mt={["4","8","20"]}
-          ml={["8","12","16","36"]}
+          fontSize={["lg", "2xl", "3xl"]}
+          mt={["8", "12", "20"]}
+          ml={["8", "12", "16", "36"]}
           maxW={["100%", "426px"]}
           textColor="gray.50"
         >
           5 Continentes, <br /> infinitas possibilidades.
         </Heading>
         <Text
-          fontSize="lg"
+          fontSize={["xs", "sm", "md"]}
           textColor="gray.50"
-          mt={["2","5","5"]}
-          ml={["8","12","16","36"]}
+          mt={["2", "4", "5"]}
+          ml={["8", "12", "16", "36"]}
         >
           Chegou a hora de tirar do papel a viagem que você sempre sonhou.
         </Text>
@@ -41,8 +43,8 @@ export function Banner() {
       {isWideVersion && (
         <Image
           src="/assets/images/airplane.svg"
-          h={["","180px","280px"]}
-          w={["","360px","418px"]}
+          h={["", "180px", "280px"]}
+          w={["", "360px", "418px"]}
           mt="9"
           mr={["4", "4", "8"]}
           transform={{

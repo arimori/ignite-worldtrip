@@ -5,6 +5,13 @@
   width: 60px;
 }
 
+@media (max-width: 720px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: transparent !important;
+  }
+}
+
 .swiper-pagination {
   bottom: 41px !important;
   padding-bottom: 1rem !important;
