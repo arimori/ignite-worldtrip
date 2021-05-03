@@ -9,19 +9,22 @@ export function ContinentBanner({ banner, name }: ContinentBannerProps) {
   return (
     <Flex
       maxWidth={1440}
-      h={["150px", "250px", "500px"]}
-      mx="auto"
+      h={["180px", "250px", "500px"]}
       w="100%"
+      mx="auto"
       bgImage={`url(${banner})`}
       bgRepeat="no-repeat"
       bgPosition="center"
       bgSize="cover"
       position="relative"
-      align="flex-start"
-      justify="flex-end"
       direction="column"
+      align={["center", "center", "flex-start"]}
+      justify={["center", "center", "flex-end"]}
     >
-      <Box pb="14" pl="36">
+      <Box
+        pb={["0", "0", "14"]}
+        pl={["0", "0", "36"]}
+      >
         <Heading
           fontSize={["3xl", "5xl"]}
           lineHeight="72px"

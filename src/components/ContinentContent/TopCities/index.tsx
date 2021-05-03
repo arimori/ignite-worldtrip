@@ -31,7 +31,10 @@ export function TopCities({ highlightCities }: TopCitiesProps) {
         mt="10"
       >
         {highlightCities.map(city => (
-          <City city={city} />
+          <City 
+            key={city.id}
+            city={city} 
+          />
         ))}
       </SimpleGrid>
 

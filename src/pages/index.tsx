@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Divider, Flex } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 import { Header } from '../components/Header';
 import { Banner } from '../components/Banner';
 import { TravelTypes } from '../components/TravelTypes';
@@ -19,7 +19,7 @@ export default function Home() {
 
         <Flex
           w="100%"
-          p={["8", "24"]}
+          p={["8", "12", "24"]}
           direction="column"
         >
           <TravelTypes />

@@ -11,26 +11,27 @@ export function ContinentContent({ continent }: ContinentProps) {
     <>
       <ContinentBanner banner={continent.banner} name={continent.name} />
 
-      <Flex
-        align="center"
-        justify="center"
-        direction={["column", "row"]}
-        mx="auto"
+      <HStack
+        my={["2", "20"]}
+        mx={["2", "8", "16"]}
+        spacing={12}
       >
-        <HStack
-          my={["2", "20"]}
-          mx={["2", "8", "16"]}
-          spacing={12}
+        <Flex
+          align="center"
+          justify="center"
+          direction={["column", "column", "row"]}
+          mx="auto"
         >
           <CardContinent paragraph={continent.paragraph} />
           <SummaryContinet continent={continent} />
-        </HStack>
-      </Flex>
+        </Flex>
+      </HStack>
 
-      <Flex 
-        maxWidth={1160}        
+      <Flex
+        maxWidth={1160}
         w="100%"
         mx="auto"
+        mt="8"
       >
         <TopCities highlightCities={continent.highlightCities} />
       </Flex>

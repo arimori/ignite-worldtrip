@@ -1,4 +1,4 @@
-import { Box, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { SimpleGrid } from "@chakra-ui/react";
 import { IconTravelType } from "./IconTravelType";
 
 export function TravelTypes() {
