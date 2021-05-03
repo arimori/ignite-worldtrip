@@ -8,6 +8,7 @@ export function CardContinent({ paragraph }: CardContinentProps) {
   return (
     <Box
       maxW="600"
+      m={["4", "1"]}
     >
       <Text
         fontSize={["sm", "lg", "2xl"]}

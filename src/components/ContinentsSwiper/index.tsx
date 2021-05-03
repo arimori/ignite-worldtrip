@@ -20,10 +20,6 @@ interface ContinentsSummary {
 
 export function ContinentsSwiper() {
   const [continents, setContinents] = useState<ContinentsSummary[]>([]);
-  const isWideVersion = useBreakpointValue({
-    base: true,
-    sm: false,
-  });
 
   useEffect(() => {
     getContinentsSummary();

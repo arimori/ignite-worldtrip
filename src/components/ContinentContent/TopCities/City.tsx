@@ -11,24 +11,28 @@ export function City({ city }: CityProps) {
       a="li"
       direction="column"
       w="100%"
-      h="279px"
+      h="280px"
       borderRadius="4"
       border="1px solid #FFE299"
+      justify="center"
     >
       <Image
         w="100%"
-        h="173px"
+        h="200px"
         objectFit="cover"
         src={city.image}
         alt={city.city}
+        borderTopRadius="4"
       />
       <Flex
         px="6"
-        pt="5"
+        mt="5"
         justify="space-between"
         align="start"
       >
-        <Box>
+        <Box
+          mb="6"
+        >
           <Heading
             fontSize="xl"
             lineHeight="base"

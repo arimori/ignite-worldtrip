@@ -36,7 +36,7 @@
       "paragraph": "América é o maior continente em extensão norte–sul localizado no Hemisfério Ocidental e compreende uma área total de 42.189.120 km2. O continente é habitado por cerca de 902.892.047 pessoas, e nele são faladas diversas línguas, como espanhol, inglês, português, francês, neerlandês e línguas nativas.",
       "allCountries": 50,
       "allIdioms": 60,
-      "top100CitiesCount": 27,
+      "top100CitiesCount": 4,
       "highlightCities": [
         {
           "id": 1,
@@ -49,7 +49,21 @@
           "id": 2,
           "image": "https://images.unsplash.com/photo-1511268559489-34b624fbfcf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
           "city": "Nova York",
-          "country": "USA",
+          "country": "EUA",
+          "flag": "https://i.pinimg.com/736x/03/af/62/03af623d4246ea4bffb7c9997928285a.jpg"
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1569681157442-5eabf7fe850e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80",
+          "city": "Ottawa",
+          "country": "Canadá",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197430.svg?token=exp=1620059154~hmac=3d051c5ff56f37919dcdd140df359f9e"
+        },
+        {
+          "id": 4,
+          "image": "https://images.unsplash.com/photo-1501466044931-62695aada8e9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=678&q=80",
+          "city": "Washington D.C.",
+          "country": "EUA",
           "flag": "https://i.pinimg.com/736x/03/af/62/03af623d4246ea4bffb7c9997928285a.jpg"
         }
       ]
@@ -63,19 +77,19 @@
       "paragraph": "A Ásia é um dos continentes do mundo, considerado o mais extenso territorialmente e o mais populoso também. A Ásia é o maior continente em área terrestre do mundo, estando boa parte do continente localizado no Hemisfério Norte.",
       "allCountries": 50,
       "allIdioms": 60,
-      "top100CitiesCount": 27,
+      "top100CitiesCount": 3,
       "highlightCities": [
         {
           "id": 1,
           "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1371&q=80",
-          "city": "Tokyo",
+          "city": "Tóquio",
           "country": "Japão",
           "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAilBMVEX///+8AC27ACe7ACm3AAC4ABW5ABu4ABC6ACS5ABi4ABG6ACC7ACby19y5ABe6ACK3AAr46Ov34+jousHFOlLCK0bip7D78PLqwcfmtLztx82+ETb99vjajZnNX3DtzNDCJkTUeYbemqXEM0zHRVrQanrLWGnlrrfhoqzXhJDAHj3KUGTHSVzScH8lYR+UAAADsUlEQVR4nO3diXaiMBQG4IZFtiKISl2ojtVuzvj+rzdwPLa2iS0CyT0X/+8Jcu8J2Unu7gAAAAAAAAAAAAAAAAAAAAAAAACgUmTxejaej2frOKMuC71inR92vpN6oesOXTf0UsffHd7WD9QFI1Ks37duOEgsW5yzrWQQun/eFwV1AY0bryIvssQldhRGq/EtpSXeDFz/Yj5OfDc4xNRFNWQ2caJfE3KUONsxdXENGO+9y5+MzAr3c+oia7aYevbvifjC9qYL6mJrNHpJr6kjH3Ul/TuiLrouT87vDaua7zxRF16L0SRsmJGKO+lhVZmH9y1SIsR9+EodQtc2TquMVJwNdRCdKiZB65QIEUx6NLAdLZMOUlIO4Za9aVSypEkPrGIlPVlMiIfXDtMus91ezIAyt7uUlEkJe1BTsqjLlFSrCOyTUiy7aktOrCX33mfbTY9zLtlSB9XO86DzlAgxeKYOq4081ZASIdKcOrDmMj0pKZPCt52ddt2+nlhT6tCaeuxikqMWPFIH14y2L6fC9OuZtFsw+dn9hDq8JuY6q0lZUThuciy7HdN/Zy+pA7xe7mpNiRAuv0GKrbealBVFUId4rXyoOSVlReG2aK25NanYe+ogr7PwtKdECI/Xnumq6Y7fNfwVdZjXeNA7NjlJOZ3xyvXNdM4FnLrjna4J8VfWjjrQ+h5MtLAVj8/HM9c/ODka8jnD9Nz9wrRawmdlVugfsB3xGd9nppqTskHhsqk+1z0l/uRyWUV5rHv8tb2Iy7rsi4mB/ZH/Qh1sTcYyUqEOtqb2R9fqc6iDrUfrHsZ3TPY0YnNdcdkZ8zi3NDPXFZedMY91pVczCwVHAY9F2VzHmZNLBjyWUN6M5uSNOtxakBMZciJDeyJDvyNbYHwiwThWhvmOAubFMoMpYbN+gnU2GdZjZSbX7blsBI4M7u8w6XawD6iC/WIZzhXIcP5EAeeUZDjPJsO5RwWcj5UZOUed8lhP+rDHeXvJq/45D7v/MvSP7xmN60/wn5cC/geUjfHfqEzv/8WchvWf8B+6Au4rUMC9FjLcf6KAe3IU9NyndKAOqx3cuyXD/WwKo87v8ePyG9MPcN+jQhzgXlBJ5uP+WAnuGVbAfdQquLdcof399nz2y2vDOwgqeC9DAe+qqOD9HRW806SC97xU4s0grPPuW7TpyeymHrwPqHLhHUlxu+9IHhXrfPPP/vLeaLQ75Df73uiZs3dpb7V2AAAAAAAAAAAAAAAAAAAAAAAAAHz3H80HS8cmvw/tAAAAAElFTkSuQmCC"
         },
         {
           "id": 2,
           "image": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
-          "city": "Pequim",
+          "city": "Xangai",
           "country": "China",
           "flag": "https://i.pinimg.com/originals/fd/41/bf/fd41bf63ad9094ac945f35177248f2c2.png"
         },
@@ -92,16 +106,16 @@
       "id": 3,
       "name": "África",
       "image": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80",
-      "banner": "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80",
+      "banner": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80",
       "description": "Um continente cheio de cultura",
       "paragraph": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes.",
       "allCountries": 50,
       "allIdioms": 60,
-      "top100CitiesCount": 27,
+      "top100CitiesCount": 3,
       "highlightCities": [
         {
           "id": 1,
-          "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+          "image": "https://images.unsplash.com/photo-1583426452197-db267897489e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
           "city": "Cairo",
           "country": "Egito",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/900px-Flag_of_Egypt.svg.png"
@@ -112,6 +126,13 @@
           "city": "Johannesburg",
           "country": "África do Sul",
           "flag": "https://cdn.britannica.com/27/4227-050-00DBD10A/Flag-South-Africa.jpg"
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1489493887464-892be6d1daae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=748&q=80",
+          "city": "Angola",
+          "country": "Luanda",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197513.svg?token=exp=1620058736~hmac=5ead84e09e2463429afd125144ffadf3"
         }
       ]
     },
@@ -123,8 +144,8 @@
       "description": "O continente mais antigo",
       "paragraph": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
       "allCountries": 50,
-      "allIdioms": 60,
-      "top100CitiesCount": 27,
+      "allIdioms": 24,
+      "top100CitiesCount": 6,
       "highlightCities": [
         {
           "id": 1,
@@ -160,6 +181,13 @@
           "city": "Amsterdã",
           "country": "Holanda",
           "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png"
+        },
+        {
+          "id": 6,
+          "image": "https://images.unsplash.com/photo-1580323956656-26bbb1206e34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=865&q=80",
+          "city": "Lisboa",
+          "country": "Portugal",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/299/299724.svg?token=exp=1620058922~hmac=2cd7a4db31c8c7bd7a74e1da24b49873"
         }
       ]
     },
@@ -172,14 +200,21 @@
       "paragraph": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico.",
       "allCountries": 50,
       "allIdioms": 60,
-      "top100CitiesCount": 27,
+      "top100CitiesCount": 2,
       "highlightCities": [
         {
           "id": 1,
           "image": "https://images.unsplash.com/photo-1527048272542-01226422db13?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1372&q=80",
           "city": "Sidney",
           "country": "Austrália",
-          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/800px-Flag_of_Australia_%28converted%29.svg.png"
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/3909/3909435.svg?token=exp=1620058686~hmac=b05469122fb17c2bdb15fd6b4f484e7b"
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1574751743509-d3b94e447a1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=669&q=80",
+          "city": "Wellington",
+          "country": "Nova Zelândia",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/299/299827.svg?token=exp=1620058656~hmac=294d89e9ccdbf831ff641095f848db48"
         }
       ]
     }
