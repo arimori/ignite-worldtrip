@@ -20,7 +20,13 @@ As part of the challenges from the 4th chapter of Ignite, this project was built
 The [UI](https://www.figma.com/file/abjzMIdIwZ0RCAQIlO4TN0/Desafio-1-M%C3%B3dulo-4-ReactJS-(Copy)?node-id=49%3A3) was developed by Rocketseat Team.
 
 ### 🛠 Languages and libraries:
-- `React`
+- `React`;
+- `Typescript`;
+- `SASS`;
+- `NextJS`;
+- `JSON Server`;
+- `ChakraUI`;
+- `React Icons/Remix Icons`;
 
 ### :checkered_flag: Instructions
 ---
