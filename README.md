@@ -15,10 +15,12 @@ Landing page built in order to practice NextJS SSR and implement a UI based on C
 ### 📑 Ignite | Worldtrip
 
 ---
-As part of the challenges from Ignite 4th chapter, this project was built in order to implement the [ChakraUI](https://chakra-ui.com/) and practice the Mobile First concept on this layout.
-
+As part of the challenges from the 4th chapter of Ignite, this project was built in order to implement the [ChakraUI](https://chakra-ui.com/) and practice the Mobile First concept on this layout.
 
 The [UI](https://www.figma.com/file/abjzMIdIwZ0RCAQIlO4TN0/Desafio-1-M%C3%B3dulo-4-ReactJS-(Copy)?node-id=49%3A3) was developed by Rocketseat Team.
+
+### 🛠 Languages and libraries:
+- `React`
 
 ### :checkered_flag: Instructions
 ---
@@ -31,13 +33,12 @@ The [UI](https://www.figma.com/file/abjzMIdIwZ0RCAQIlO4TN0/Desafio-1-M%C3%B3dulo
 
 > yarn
 
+**Start the fake API**
+> yarn server
+
 **Start the application**
 
 > yarn dev
-
-**Start the webhook**
-> stripe listen --forward-to localhost:3000/api/webhooks
-
 
 :heart: Developed by [Naoshi Arimori!](https://www.linkedin.com/in/naoshi/)
 
