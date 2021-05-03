@@ -46,5 +46,5 @@ The [UI](https://www.figma.com/file/abjzMIdIwZ0RCAQIlO4TN0/Desafio-1-M%C3%B3dulo
 
 > yarn dev
 
-:heart: Developed by [Naoshi Arimori!](https://www.linkedin.com/in/naoshi/)
+:heart: Developed by [Naoshi Arimori](https://www.linkedin.com/in/naoshi/)
 
