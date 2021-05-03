@@ -7,7 +7,7 @@ export function TravelTypes() {
       spacing={8}
       minChildWidth="100px"
       maxW={1160}
-      mx="auto"
+      mx={["", "", "auto"]}
     >
       <IconTravelType />
     </SimpleGrid>
